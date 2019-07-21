@@ -1,5 +1,6 @@
-# Project 2. House Price Prediction
+# Ames House Price Prediction
 
+![alt text](https://github.com/achernyshova/Ames-House-Price-Prediction/blob/master/images/ames.jpg)
 
 ## Problem Statement
 > - The goal for this project use linear regression techniques in order to estimate the sales price of houses in Ames, Iowa.
@@ -13,17 +14,6 @@ sold in Ames between January 2006 and July 2010
 
 Data dictionary is here:  http://jse.amstat.org/v19n3/decock/DataDocumentation.txt
 
-## Repo Structure
-> - Code folder - Contains all Jupyter notebooks:
-
-      1. 01_Train_Cleaning_and_EDA.ipynb
-      2. 02_Kaggle_Cleaning.ipynb
-      3. 03_Preprocessing_Feature_Engineering_and_Modeling.ipynb
-
-> - Datasets folder - Contains .csv files  - original training and test data sets, cleaned data sets for both test and training data sets, submission to Kaggle competition.
-
-
-
 
 
 ## Executive Summary
@@ -36,9 +26,6 @@ The project will do the following parts:
 
 
 ## Conclusions and findings
-The model with the highest r2 score is LASSO regression model with 80 features. The RMSE for this model was $20,912.
-The most likely predictors of house price are square footage of a house and overall quality.
+This competition was a great exercise in some regression techniques. I was able to achieve a top 30% score even though I performed minimal feature engineering, which I will leave as a later exercise for myself.
 
-
-## Next steps
-Learn and use other types of models and techniques to improve the metrics of predictions
+The model that performs the best was is which got me in the top 30% on Kaggle competition and 1st place in in-class competition is stacking model (Lasso, Ridge, Enet, XGBoost) with R2 Score 95%
